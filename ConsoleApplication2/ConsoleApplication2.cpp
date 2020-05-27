@@ -12,6 +12,7 @@ bool palindromo(string a) {
 		j = a.size() - 1 - i;
 		if (a[i] != a[j]) {
 			return false;
+
 		}
 	}
 	return true;
